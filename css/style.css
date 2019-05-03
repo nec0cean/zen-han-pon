@@ -7,3 +7,7 @@ fieldset textarea {
   height: 11em;
   line-height: 1.5em;
 }
+
+fieldset {
+  padding: 0%;
+}
