@@ -1,3 +1,9 @@
 body {
   background-color: #FADBE0;
 }
+
+fieldset textarea {
+  width: 98%;
+  height: 11em;
+  line-height: 1.5em;
+}
