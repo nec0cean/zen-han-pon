@@ -11,12 +11,15 @@
   <div class="main-wrapper">
     <h1>zen-han-pon</h1>
       <p>半角と全角を変換する</p>
-        <form id="text-form"></form>
+        <form id="text-form">
           <fieldset>
             <legend>変換対象のテキスト</legend>
-            <textarea name="text"></textarea>
+            <!-- <textarea name="text"></textarea> -->
+            <input type="text" id="freewordInput" name="freeword">
           </fieldset>
-          <input type="submit" id="submit" value="変換">
+          <button type="button" onclick="onConversionButtonClick()">変換</button>
+        </form>
+        <p id="showInput">未入力</p>
   </div>
   <footer class="footer">
   </footer>
